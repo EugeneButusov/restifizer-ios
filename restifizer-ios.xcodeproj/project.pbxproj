@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4380C61C64A0BE005D2DA4 /* restifizer_ios_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4380C51C64A0BE005D2DA4 /* restifizer_ios_test.m */; };
+		2B4380C81C64A0BE005D2DA4 /* librestifizer-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6815136274EE6A5F3D57845 /* librestifizer-ios.a */; };
 		A68151196734A3DDB11C4210 /* ListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A68150B473F1BDAFA92BBA0E /* ListResponse.m */; };
 		A6815586C1509DE9C1444A57 /* RestifizerAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = A6815F8896AA32D74D3CFF29 /* RestifizerAuthentication.m */; };
 		A681563EBCE1A8F074069114 /* SingleObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A6815B1F85257C35B3E4F9B0 /* SingleObjectResponse.m */; };
@@ -15,6 +17,16 @@
 		A6815A5B7AFAFC45776959AB /* Restifizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A68159FA93E1A1C9715FBDB4 /* Restifizer.m */; };
 		A6815DEEBD6180BE9A847FBD /* RestifizerResource.m in Sources */ = {isa = PBXBuildFile; fileRef = A68152D3FE8A5D8FA39E13FB /* RestifizerResource.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4380C91C64A0BE005D2DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6815D383A2CF3CE49763CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6815CE8FF6760E505B6F4C8;
+			remoteInfo = "restifizer-ios";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A6815C92B5A8CE31070069BF /* CopyFiles */ = {
@@ -29,6 +41,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B4380C31C64A0BE005D2DA4 /* restifizer-ios-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "restifizer-ios-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4380C51C64A0BE005D2DA4 /* restifizer_ios_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = restifizer_ios_test.m; sourceTree = "<group>"; };
+		2B4380C71C64A0BE005D2DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A681500E61B1734AC45C4688 /* RestifizerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestifizerRequest.m; sourceTree = "<group>"; };
 		A681505508CF985355777F57 /* RestifizerAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestifizerAuthentication.h; sourceTree = "<group>"; };
 		A68150B473F1BDAFA92BBA0E /* ListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListResponse.m; sourceTree = "<group>"; };
@@ -47,6 +62,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B4380C01C64A0BE005D2DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4380C81C64A0BE005D2DA4 /* librestifizer-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6815AFE0F95EA1D0B3AFDE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,9 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4380C41C64A0BE005D2DA4 /* restifizer-ios-test */ = {
+			isa = PBXGroup;
+			children = (
+				2B4380C51C64A0BE005D2DA4 /* restifizer_ios_test.m */,
+				2B4380C71C64A0BE005D2DA4 /* Info.plist */,
+			);
+			path = "restifizer-ios-test";
+			sourceTree = "<group>";
+		};
 		A6815A02AA194F777F811106 = {
 			isa = PBXGroup;
 			children = (
+				2B4380C41C64A0BE005D2DA4 /* restifizer-ios-test */,
 				A6815D7ACA8C31B212BA6899 /* Products */,
 				A6815CDECB79FF7770F860C2 /* restifizer-ios */,
 			);
@@ -106,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				A6815136274EE6A5F3D57845 /* librestifizer-ios.a */,
+				2B4380C31C64A0BE005D2DA4 /* restifizer-ios-test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +147,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B4380C21C64A0BE005D2DA4 /* restifizer-ios-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4380CD1C64A0BE005D2DA4 /* Build configuration list for PBXNativeTarget "restifizer-ios-test" */;
+			buildPhases = (
+				2B4380BF1C64A0BE005D2DA4 /* Sources */,
+				2B4380C01C64A0BE005D2DA4 /* Frameworks */,
+				2B4380C11C64A0BE005D2DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4380CA1C64A0BE005D2DA4 /* PBXTargetDependency */,
+			);
+			name = "restifizer-ios-test";
+			productName = "restifizer-ios-test";
+			productReference = 2B4380C31C64A0BE005D2DA4 /* restifizer-ios-test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A6815CE8FF6760E505B6F4C8 /* restifizer-ios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6815AD6BEE90410C1ED5393 /* Build configuration list for PBXNativeTarget "restifizer-ios" */;
@@ -137,6 +189,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = VedideV;
+				TargetAttributes = {
+					2B4380C21C64A0BE005D2DA4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
 			};
 			buildConfigurationList = A68157EDD0C0FEAB2BA58F0C /* Build configuration list for PBXProject "restifizer-ios" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -151,11 +208,30 @@
 			projectRoot = "";
 			targets = (
 				A6815CE8FF6760E505B6F4C8 /* restifizer-ios */,
+				2B4380C21C64A0BE005D2DA4 /* restifizer-ios-test */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2B4380C11C64A0BE005D2DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2B4380BF1C64A0BE005D2DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4380C61C64A0BE005D2DA4 /* restifizer_ios_test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A68153CD0BBDDEA7295E91CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,7 +248,35 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2B4380CA1C64A0BE005D2DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6815CE8FF6760E505B6F4C8 /* restifizer-ios */;
+			targetProxy = 2B4380C91C64A0BE005D2DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2B4380CB1C64A0BE005D2DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "restifizer-ios-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedidev.restifizer-ios-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B4380CC1C64A0BE005D2DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "restifizer-ios-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedidev.restifizer-ios-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A68157013CE60FC3360C808A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -274,6 +378,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B4380CD1C64A0BE005D2DA4 /* Build configuration list for PBXNativeTarget "restifizer-ios-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4380CB1C64A0BE005D2DA4 /* Debug */,
+				2B4380CC1C64A0BE005D2DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A68157EDD0C0FEAB2BA58F0C /* Build configuration list for PBXProject "restifizer-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -290,6 +402,7 @@
 				A68157013CE60FC3360C808A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
