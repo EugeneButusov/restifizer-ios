@@ -6,6 +6,16 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A68151196734A3DDB11C4210 /* ListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A68150B473F1BDAFA92BBA0E /* ListResponse.m */; };
+		A6815586C1509DE9C1444A57 /* RestifizerAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = A6815F8896AA32D74D3CFF29 /* RestifizerAuthentication.m */; };
+		A681563EBCE1A8F074069114 /* SingleObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A6815B1F85257C35B3E4F9B0 /* SingleObjectResponse.m */; };
+		A681598E23905B3ADB41B686 /* RestifizerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A68157D52EED46A75AFA5E2A /* RestifizerResponse.m */; };
+		A6815A3008508FB97C13E551 /* RestifizerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A681500E61B1734AC45C4688 /* RestifizerRequest.m */; };
+		A6815A5B7AFAFC45776959AB /* Restifizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A68159FA93E1A1C9715FBDB4 /* Restifizer.m */; };
+		A6815DEEBD6180BE9A847FBD /* RestifizerResource.m in Sources */ = {isa = PBXBuildFile; fileRef = A68152D3FE8A5D8FA39E13FB /* RestifizerResource.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		A6815C92B5A8CE31070069BF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,7 +29,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A681500E61B1734AC45C4688 /* RestifizerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestifizerRequest.m; sourceTree = "<group>"; };
+		A681505508CF985355777F57 /* RestifizerAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestifizerAuthentication.h; sourceTree = "<group>"; };
+		A68150B473F1BDAFA92BBA0E /* ListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListResponse.m; sourceTree = "<group>"; };
 		A6815136274EE6A5F3D57845 /* librestifizer-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librestifizer-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68152D3FE8A5D8FA39E13FB /* RestifizerResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestifizerResource.m; sourceTree = "<group>"; };
+		A68153BB8D82991D481FDF58 /* ListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListResponse.h; sourceTree = "<group>"; };
+		A68157D52EED46A75AFA5E2A /* RestifizerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestifizerResponse.m; sourceTree = "<group>"; };
+		A681580026E3D3856C3501FE /* RestifizerResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestifizerResource.h; sourceTree = "<group>"; };
+		A68159FA93E1A1C9715FBDB4 /* Restifizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restifizer.m; sourceTree = "<group>"; };
+		A6815B1F85257C35B3E4F9B0 /* SingleObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleObjectResponse.m; sourceTree = "<group>"; };
+		A6815BFF2FAA7B907E8CF177 /* RestifizerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestifizerResponse.h; sourceTree = "<group>"; };
+		A6815DE3CAB8306BCB54B1A1 /* SingleObjectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleObjectResponse.h; sourceTree = "<group>"; };
+		A6815EEFEED615FFE753D85A /* Restifizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restifizer.h; sourceTree = "<group>"; };
+		A6815F8896AA32D74D3CFF29 /* RestifizerAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestifizerAuthentication.m; sourceTree = "<group>"; };
+		A6815FFD890682061C754708 /* RestifizerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestifizerRequest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +65,39 @@
 			);
 			sourceTree = "<group>";
 		};
+		A6815BFBDB822C98D329F187 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				A68157D52EED46A75AFA5E2A /* RestifizerResponse.m */,
+				A6815BFF2FAA7B907E8CF177 /* RestifizerResponse.h */,
+				A6815C7F538BFC21CE6708E7 /* Derivatives */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		A6815C7F538BFC21CE6708E7 /* Derivatives */ = {
+			isa = PBXGroup;
+			children = (
+				A6815B1F85257C35B3E4F9B0 /* SingleObjectResponse.m */,
+				A6815DE3CAB8306BCB54B1A1 /* SingleObjectResponse.h */,
+				A68150B473F1BDAFA92BBA0E /* ListResponse.m */,
+				A68153BB8D82991D481FDF58 /* ListResponse.h */,
+			);
+			path = Derivatives;
+			sourceTree = "<group>";
+		};
 		A6815CDECB79FF7770F860C2 /* restifizer-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A681500E61B1734AC45C4688 /* RestifizerRequest.m */,
+				A6815FFD890682061C754708 /* RestifizerRequest.h */,
+				A681580026E3D3856C3501FE /* RestifizerResource.h */,
+				A68152D3FE8A5D8FA39E13FB /* RestifizerResource.m */,
+				A68159FA93E1A1C9715FBDB4 /* Restifizer.m */,
+				A6815EEFEED615FFE753D85A /* Restifizer.h */,
+				A6815BFBDB822C98D329F187 /* Responses */,
+				A6815F8896AA32D74D3CFF29 /* RestifizerAuthentication.m */,
+				A681505508CF985355777F57 /* RestifizerAuthentication.h */,
 			);
 			path = "restifizer-ios";
 			sourceTree = "<group>";
@@ -106,6 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6815A3008508FB97C13E551 /* RestifizerRequest.m in Sources */,
+				A6815DEEBD6180BE9A847FBD /* RestifizerResource.m in Sources */,
+				A6815A5B7AFAFC45776959AB /* Restifizer.m in Sources */,
+				A681598E23905B3ADB41B686 /* RestifizerResponse.m in Sources */,
+				A681563EBCE1A8F074069114 /* SingleObjectResponse.m in Sources */,
+				A68151196734A3DDB11C4210 /* ListResponse.m in Sources */,
+				A6815586C1509DE9C1444A57 /* RestifizerAuthentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
